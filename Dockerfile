@@ -1,5 +1,0 @@
-﻿FROM alpine:latest
-RUN echo "Hello from Jenkins Docker Build!" > /hello.txt
-CMD ["cat", "/hello.txt"]
-
-
